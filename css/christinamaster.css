@@ -6,7 +6,7 @@
 }
 
 .navbar{
-    background:#e0b1ff;
+    background:#2b2d42;
     height:80px;
     display:flex;
     justify-content:center;
@@ -30,7 +30,7 @@
 
 #navbar__logo{
     background-color:aliceblue;
-    background-image:linear-gradient(to top,#0829ff 0%,#ff5199 100%);
+    background-image:linear-gradient(to top,#ffffff 0%,#686d9c 100%);
     background-size:100%;
     -webkit-background-clip:text;
     -moz-background-clip:text;
