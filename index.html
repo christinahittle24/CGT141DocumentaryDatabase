@@ -25,8 +25,21 @@
           <option value="religion">Religion</option>
           <option value="true-crime">True Crime</option>
           <option value="history">History</option>
+        
         </select>
       </label>
+
+       <label>
+       Platform:
+        <select id="platformFilter">
+          <option value="all">All</option>
+          <option value="Netflix">Netflix</option>
+          <option value="Max">Max</option>
+          <option value="Prime">Prime</option>
+           <option value="Hulu">Hulu</option>
+        </select>
+    </label>  
+
       <label>
         Length:
         <select id="lengthFilter">
@@ -37,32 +50,41 @@
         </select>
     </label>  
 </aside>
-<!--create new container for each of the docs-->
+
 
     <section class="doc-grid">
-      <div class="doc-card" data-genre="religion" data-length="long">
+      <div class="doc-card" data-genre="religion" data-length="long" data-platform="Max">
+        <a href="documentaries/heavensgate.html">
+          <h3>Heaven's Gate The Cult of Cults</h3>
           <img src="images/Heavens Gate Image.avif" alt="Doc 1">
           <a href="documentaries/heavensgate.html">
           <h3>Heaven's Gate The Cult of Cults</h3>
         </a>
       </div>
-
-
-        <div class="doc-card" data-genre="true-crime" data-length="long">
+        <div class="doc-card" data-genre="true-crime" data-length="long" data-platform="Netflix">
+    <a href="documentaries/familynextdoor.html">
+      <h3>American Murder: The Family Next Door</h3>
       <img src="images/chris-watts-family-main-081325-0e08a43c43f54d3ca80a4ff7eb743064.jpg" alt="Doc 2">
       <a href="documentaries/familynextdoor.html">
       <h3>American Murder: The Family Next Door</h3>
     </a>
   </div>
 
-
-  <div class="doc-card" data-genre="true-crime" data-length="long">
+  <div class="doc-card" data-genre="true-crime" data-length="long" data-platform="Netflix">
+    <a href="documentaries/unknownnumber.html">
+      <h3>Unknown Number: The High School Catfish</h3>
       <img src="images/download.jpg" alt="Doc 3">
       <a href="documentaries/unknownnumber.html">
       <h3>Unknown Number: The High School Catfish</h3>
     </a>
   </div>
 
+  <div class="doc-card" data-genre="history" data-length="long" data-platform="Netflix">
+    <a href="documentaries/tp911.html">
+      <h3>Turning Point: 911 and The War on Terror</h3>
+      <img src="images/article-15502-hero.jpg" alt="Doc 4">
+    </a>
+  </div>
   
   </main>
 <script src="script.js"></script>
