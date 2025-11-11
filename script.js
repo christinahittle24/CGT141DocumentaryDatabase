@@ -25,6 +25,8 @@ function filterDocs() {
   });
 }
 
+
 genreFilter.addEventListener("change", filterDocs);
 lengthFilter.addEventListener("change", filterDocs);
 if (platformFilter) platformFilter.addEventListener("change", filterDocs);
+
