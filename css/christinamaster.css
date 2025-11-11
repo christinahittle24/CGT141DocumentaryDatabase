@@ -51,6 +51,7 @@
   display: block;
   margin: 0 auto;
     box-shadow: 5px 5px 5px rgba(0,0,0,0.3);
+    outline: black 2px;
 }
 .doc-grid {
   display: grid;
@@ -64,10 +65,6 @@ h3 {
     text-align: center;
     margin-top: 10px;
     font: Georgia;
-
-
-
-
 }
 
 
