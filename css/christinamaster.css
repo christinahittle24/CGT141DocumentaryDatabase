@@ -43,9 +43,36 @@
     font-size: 2rem;
 }
 
-.filter-selection{
-    width: 15%;
+.filter-section{
+    width: 10%;
     float: left;
+}
+
+h2{
+    font: Georgia;
+    font-size:large;
+}
+
+#genreFilter{
+    margin:10px;
+    padding:5px;
+    font: Georgia;
+    font-size: medium;
+}
+
+
+#platformFilter{
+    margin:10px;
+    padding:5px;
+    font: Georgia;
+    font-size: medium;
+}
+
+#lengthFilter{
+    margin:10px;
+    padding:5px;
+    font: Georgia;
+    font-size: medium;
 }
 
 .doc-card img {
@@ -70,9 +97,11 @@
 }
 
 h3 {
+    max-width:300px;
     text-align: center;
     margin-top: 10px;
     font: Georgia;
+    
 }
 
 
