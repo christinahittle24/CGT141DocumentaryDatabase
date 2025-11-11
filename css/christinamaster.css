@@ -52,34 +52,57 @@
 
 }
 
+label{
+    margin-left: 10px;
+    margin-bottom:5px;
+    margin-top:10x;
+}
+
 h2{
+    width: 115%;
+    margin-left: 10px;
+    margin-right:10px;
+    margin-bottom:5px;
+    margin-top:10x;
+    padding:5px;
     font: Georgia;
-    font-size:x-large;
-    padding: 0px;
-    margin-top: 10px;
+    font-size: x-large;
+    border-bottom: black solid 2px;
+    text-align:center
 }
 
 
 #genreFilter{
+    width: 115%;
     margin-left: 10px;
-    margin-bottom:20px;
+    margin-right:10px;
+    margin-bottom:5px;
+    margin-top:10x;
     padding:5px;
     font: Georgia;
-    font-size: medium;
+    font-size: large;
     border-bottom: black solid 2px;
 }
 
 
 #platformFilter{
-    margin:10px;
+    width: 115%;
+    margin-left: 10px;
+    margin-right:10px;
+    margin-bottom:5px;
+    margin-top:10x;
     padding:5px;
     font: Georgia;
-    font-size: medium;
+    font-size: large;
     border-bottom: black solid 2px;
 }
 
 #lengthFilter{
-    margin:10px;
+    width: 115%;
+    margin-left: 10px;
+    margin-right:10px;
+    margin-bottom:5px;
+    margin-top:10x;
     padding:5px;
     font: Georgia;
     font-size: large;
