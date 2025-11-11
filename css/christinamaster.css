@@ -55,14 +55,10 @@
 h2{
     font: Georgia;
     font-size:x-large;
+    padding: 0px;
+    margin-top: 10px;
 }
 
-.filter-card{
-    display:inline-block;
-    padding: 8px 12px;
-    margin: 4px;
-    border: 1px solid #ccc;
-}
 
 #genreFilter{
     margin-left: 10px;
