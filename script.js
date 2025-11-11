@@ -3,6 +3,10 @@ const lengthFilter = document.getElementById("lengthFilter");
 const platformFilter = document.getElementById("platformFilter");
 const cards = document.querySelectorAll(".doc-card");
 
+let selectedGenre = "all";
+let selectedLength = "all";
+let selectedPlatform = "all";
+
 function filterDocs() {
   const genre = genreFilter.value;
   const length = lengthFilter.value;
