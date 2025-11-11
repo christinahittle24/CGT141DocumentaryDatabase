@@ -72,7 +72,7 @@ h2{
 
 #platformFilter{
     margin:10px;
-    padding:20px;
+    padding:5px;
     font: Georgia;
     font-size: large;
     border-bottom: black solid 2px;
@@ -80,7 +80,7 @@ h2{
 
 #lengthFilter{
     margin:10px;
-    padding:20px;
+    padding:5px;
     font: Georgia;
     font-size: large;
     border-bottom: black solid 2px;
