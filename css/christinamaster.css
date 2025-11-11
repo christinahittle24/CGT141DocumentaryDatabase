@@ -56,7 +56,7 @@
   display: block;
   margin: 0 auto;
     box-shadow: 5px 5px 5px rgba(0,0,0,0.3);
-    outline: black 2px;
+
 }
 .doc-grid {
   display: grid;
@@ -64,7 +64,6 @@
   gap: 20px;
     margin: 10px;
     padding: 10px;
-    float:right;
 }
 
 h3 {
