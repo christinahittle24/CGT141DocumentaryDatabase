@@ -50,6 +50,7 @@
   border-radius: 8px;
   display: block;
   margin: 0 auto;
+    box-shadow: 5px 5px 5px rgba(0,0,0,0.3);
 }
 .doc-grid {
   display: grid;
@@ -68,3 +69,5 @@ h3 {
 
 
 }
+
+
