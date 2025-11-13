@@ -5,8 +5,7 @@
 <head>
 	<meta http-equiv="Content-type" content="text/html; charset=UTF-8" />
 	<title>Documentary Database</title>
-	<style type="text/css" media="all">@import "css/christinamaster.css";</style>
-	<style type="text/css" media="all">@import "css/emma.css";</style>
+	<style type="text/css" media="all">@import "master.css";</style>
 </head>	
 <body>
 <nav class="navbar">
@@ -17,108 +16,257 @@
 </nav>
   <main>
     <aside class="filter-section">
-      <h2>Filter By</h2>
+      <h2>FILTER BY</h2>
       <br></br>
       <label>
-        Genre:
+        GENRE:
         <select id="genreFilter">
-          <option value="all">All</option>
-          <option value="religion">Religion</option>
-          <option value="true-crime">True Crime</option>
-          <option value="history">History</option>
+          <option class="filter-card" value="all">ALL</option>
+          <option class="filter-card" value="religion">RELIGION</option>
+          <option class="filter-card" value="true-crime">TRUE CRIME</option>
+          <option class="filter-card" value="history">HISTORY</option>
+          <option class="filter-card" value="science/nature">SCIENCE/NATURE</option>
+          <option class="filter-card" value="social">SOCIAL</option>
         
         </select>
       </label>
 <br></br>
        <label>
-       Platform:
+       PLATFORM:
         <select id="platformFilter">
-          <option value="all">All</option>
-          <option value="Netflix">Netflix</option>
-          <option value="Max">Max</option>
-          <option value="Prime">Prime</option>
-           <option value="Hulu">Hulu</option>
+          <option value="all">ALL</option>
+          <option value="Netflix">NETFLIX</option>
+          <option value="Max">MAX</option>
+          <option value="Prime">PRIME</option>
+           <option value="Hulu">HULU</option>
         </select>
     </label>  
 <br></br>
       <label>
-        Length:
+        LENGTH:
         <select id="lengthFilter">
-          <option value="all">All</option>
-          <option value="short">Under 1 hour</option>
-          <option value="medium">1–2 hours</option>
-          <option value="long">Over 2 hours</option>
+          <option value="all">ALL</option>
+          <option value="short"><1 HOUR </option>
+          <option value="medium">1–2 HOURS</option>
+          <option value="long">+2 HOURS</option>
+          <option value="series">SERIES</option>
         </select>
     </label>  
 </aside>
 
 
     <section class="doc-grid">
-      <div class="doc-card" data-genre="religion" data-length="long" data-platform="Max">
-          <img src="images/Heavens Gate Image.avif" alt="Doc 1">
+      <div class="doc-card" data-genre="religion" data-length="series" data-platform="Max">
           <a href="documentaries/heavensgate.html">
-          <h3>Heaven's Gate The Cult of Cults</h3>
+          <h3><img src="images/Heavens Gate Image.avif" alt="Doc 1"></h3>
         </a>
+        <h3>Heavens Gate: The Cult of Cults</h3>
       </div>
         <div class="doc-card" data-genre="true-crime" data-length="long" data-platform="Netflix">
-      <img src="images/chris-watts-family-main-081325-0e08a43c43f54d3ca80a4ff7eb743064.jpg" alt="Doc 2">
       <a href="documentaries/familynextdoor.html">
-      <h3>American Murder: The Family Next Door</h3>
+      <h3><img src="images/chris-watts-family-main-081325-0e08a43c43f54d3ca80a4ff7eb743064.jpg" alt="Doc 2"></h3>
     </a>
+    <h3>American Murder: The Family Next Door</h3>
   </div>
 
-  <div class="doc-card" data-genre="true-crime" data-length="long" data-platform="Netflix">
-      <img src="images/download.jpg" alt="Doc 3">
+  <div class="doc-card" data-genre="true-crime" data-length="series" data-platform="Netflix">
       <a href="documentaries/unknownnumber.html">
-      <h3>Unknown Number: The High School Catfish</h3>
+      <h3><img src="images/download.jpg" alt="Doc 3"></h3>
     </a>
+    <h3>Unknown Number: The High School Catfish</h3>
   </div>
 
-  <div class="doc-card" data-genre="history" data-length="long" data-platform="Netflix">
-      <img src="images/article-15502-hero.jpg" alt="Doc 4">
+  <div class="doc-card" data-genre="history" data-length="series" data-platform="Netflix">
       <a href="documentaries/tp911.html">
-      <h3>Turning Point: 911 and The War on Terror</h3>
+      <h3><img src="images/article-15502-hero.jpg" alt="Doc 4"></h3>
       </a>
+      <h3>Turning Point: 911 and The War on Terror </h3>
   </div>
-  		<div class="doc-card" data-genre="true-crime" data-length="long" data-platform="Netflix">
-    		<img src="images/738.webp" alt="Doc 5">
+
+  		<div class="doc-card" data-genre="true-crime" data-length="series" data-platform="Netflix">
 			  <a href="documentaries/dontfwcats.html">
-      	<h3>Don't F**k With Cats: Hunting an Internet Killer</h3>
+      	<h3><img src="images/738.webp" alt="Doc 5"></h3>
    	 		</a>
+        <h3>Dont F**k With Cats: Hunting an Internet Killer </h3>
   		</div>
 
-  <div class="doc-card" data-genre="religion" data-length="long" data-platform="Prime">
-    		<img src="images/c17a7995bdb7f0faa761278854d2fef2b641723f93e09ec48fe8832d8cf5d901.jpg" alt="Doc 6">
+  <div class="doc-card" data-genre="religion" data-length="series" data-platform="Prime">
 			  <a href="documentaries/shinyhappypeople.html">
-      	<h3>Shiny Happy People</h3>
+      	<h3><img src="images/c17a7995bdb7f0faa761278854d2fef2b641723f93e09ec48fe8832d8cf5d901.jpg" alt="Doc 6"></h3>
    	 		</a>
+        <h3>Shiny Happy People</h3>
   		</div>
-	<div class="doc-card" data-genre="religion" data-length="long" data-platform="Netflix">
-    		<img src="images/AAAAQSZucuCaBmcSFGEuspWYTPd1gwJH3tHW101BzsVhC8Nnlj_McTQVMgyKQij-XRPrXzlDrUO7IIikspd-dOfIbZBOwwufm7Z4SkUzZeIuB3vmaG-94wuRBRuvtJKtYd1WcdnMXA77VyK4_w9H3CBvYb6e9wg.jpg" alt="Doc 7">
+
+	<div class="doc-card" data-genre="religion"  data-length="series" data-platform="Netflix">	
         <a href="documentaries/sinsofourmother.html">
-      	<h3>Sins of Our Mother</h3>
+      	<h3><img src="images/AAAAQSZucuCaBmcSFGEuspWYTPd1gwJH3tHW101BzsVhC8Nnlj_McTQVMgyKQij-XRPrXzlDrUO7IIikspd-dOfIbZBOwwufm7Z4SkUzZeIuB3vmaG-94wuRBRuvtJKtYd1WcdnMXA77VyK4_w9H3CBvYb6e9wg.jpg" alt="Doc 7"></h3>
    	 		</a>
+        <h3>The Sins of Our Mother</h3>
   		</div>
 
 		<div class="doc-card" data-genre="true-crime" data-length="medium" data-platform="Netflix">
-    		<img src="images/AAAAQcBWNmfvBnm9T2p6v6cOyTN-acZb9rY_Dbr4NygHasfwEhoql2pXEXt5kszWbLQfU_8xBMaezzIwrgZVJGZaD9Hx-zmjB6e8ht9ZBZ4TVOiHJO_MCXPg5jIGiOEmctfpH2E52tYcRPbhcwa8QsVv6iG55UU.jpg" alt="Doc 8">
         <a href="documentaries/takecareofmaya.html">
-      	<h3>Take Care of Maya</h3>
+      	<h3><img src="images/AAAAQcBWNmfvBnm9T2p6v6cOyTN-acZb9rY_Dbr4NygHasfwEhoql2pXEXt5kszWbLQfU_8xBMaezzIwrgZVJGZaD9Hx-zmjB6e8ht9ZBZ4TVOiHJO_MCXPg5jIGiOEmctfpH2E52tYcRPbhcwa8QsVv6iG55UU.jpg" alt="Doc 8"></h3>
    	 		</a>
+        <h3>Take Care of Maya</h3>
   		</div>
 
 		<div class="doc-card" data-genre="true-crime" data-length="medium" data-platform="Netflix">
-    		<img src="images/Abducted-in-Plain-Sight.webp" alt="Doc 9">
+    	
 			  <a href="documentaries/abductedinplain.html">
-        <h3>Abducted in Plain Sight</h3>
+        <h3><img src="images/Abducted-in-Plain-Sight.webp"></h3>
    	 		</a>
+        <h3>Abducted in Plain Sight</h3>
   		</div>
 
-		<div class="doc-card" data-genre="history" data-length="long" data-platform="Hulu">
-    		<img src="images/1720622458696-668c2b31b439a88dae032c00.jpg" alt="Doc 10">
+		<div class="doc-card" data-genre="history" data-length="series" data-platform="Hulu">
 			  <a href="documentaries/darkside.html">
-        <h3>Dark Side of the 90s</h3>
+        <h3><img src="images/1720622458696-668c2b31b439a88dae032c00.jpg" alt="Doc 10"></h3>
    	 		</a>
+        <h3>Dark Side of The 90s</h3>
+  		</div>
+
+    <div class="doc-card" data-genre="history" data-length="medium" data-platform="Prime">
+    		
+			  <a href="documentaries/onechildnation.html">
+        <h3><img src="images/onechildnationpt3.png" alt="One Child Nation"></h3>
+   	 		</a>
+        <h3>One Child Nation</h3>
+  		</div>
+
+    <div class="doc-card" data-genre="true-crime" data-length="series" data-platform="Max">
+    		
+			  <a href="documentaries/McMillion$.html">
+        <h3><img src="images/mcmillion$pt2.avif" alt="McMillion$"></h3>
+   	 		</a>
+        <h3>McMillion$</h3>
+  		</div>
+
+    <div class="doc-card" data-genre="religion" data-length="series" data-platform="Hulu">
+    		
+			  <a href="documentaries/Leah Remini- Scientology and the Aftermath.html">
+          <h3><img src="images/scientology.jpg" alt="Leah Remini- Scientology and the Aftermath"></h3>
+   	 		</a>
+        <h3>Leah Remini- Scientology and the Aftermath</h3>
+  		</div>
+
+    <div class="doc-card" data-genre="religion" data-length="medium" data-platform="Prime">
+    		
+			  <a href="documentaries/jesuscamp.html">
+        <h3><img src="images/jesuscamp.jpg" alt="Jesus Camp"></h3>
+   	 		</a>
+        <h3>Jesus Camp</h3>
+  		</div>
+
+    <div class="doc-card" data-genre="true-crime" data-length="medium" data-platform="Max">
+    		
+			  <a href="documentaries/they called him mostly harmless.html">
+        <h3><img src="images/they called him mostly harmless.avif" alt="They Called Him Mostly Harmless"></h3>
+   	 		</a>
+        <h3>They Called Him Mostly Harmless</h3>
+  		</div>
+    
+    <div class="doc-card" data-genre="true-crime" data-length="series" data-platform="Netflix">
+    		
+			  <a href="documentaries/the keepers.html">
+        <h3><img src="images/the keepers.jpg" alt="The Keepers"></h3>
+   	 		</a>
+        <h3>The Keepers</h3>
+  		</div>
+
+    <div class="doc-card" data-genre="science/nature" data-length="medium" data-platform="Prime">
+
+			  <a href="documentaries/thefarthest.html">
+        <h3><img src="images/thefarthest.jpg" alt="The Farthest"></h3>
+   	 		</a>
+        <h3>The Farthest</h3>
+  		</div>
+    <div class="doc-card" data-genre="history" data-length="medium" data-platform="Hulu">
+
+			  <a href="documentaries/freesolo.html">
+        <h3><img src="images/freesolo.webp" alt="Free Solo"></h3>
+   	 		</a>
+        <h3>Free Solo</h3>
+  		</div>
+    
+    <div class="doc-card" data-genre="history" data-length="medium" data-platform="Prime">
+
+			  <a href="documentaries/apollo11.html">
+        <h3><img src="images/apollo11.jpg" alt="Apollo 11"></h3>
+   	 		</a>
+        <h3>Apollo 11</h3>
+  		</div>
+
+    <div class="doc-card" data-genre="science/nature" data-length="series" data-platform="Max">
+
+			  <a href="documentaries/planetearth2.html">
+        <h3><img src="images/planetearth2.png" alt="Planet Earth II"></h3>
+   	 		</a>
+        <h3>Planet Earth II</h3>
+  		</div>
+
+      <div class="doc-card" data-genre="religion" data-length="series" data-platform="Hulu">
+
+			  <a href="documentaries/mormonnomore.html">
+        <h3><img src="images/mormonnomore.webp" alt="Mormon No More"></h3>
+   	 		</a>
+        <h3>Mormon No More</h3>
+  		</div>
+
+       <div class="doc-card" data-genre="social" data-length="short" data-platform="Netflix">
+
+			  <a href="documentaries/heroin(e).html">
+        <h3><img src="images/heroine.jpg" alt="Heroin(e)"></h3>
+   	 		</a>
+        <h3>Heroin(e)<h3>
+  		</div>
+
+      <div class="doc-card" data-genre="science/nature" data-length="series" data-platform="Hulu">
+
+			  <a href="documentaries/secretsofthezoo.html">
+        <h3><img src="images/1600x900-Q90_f12e56cc33e38a5b063e4d2e85993e27.jpg" alt="Secrets of the Zoo"></h3>
+   	 		</a>
+        <h3>Secrets of the Zoo<h3>
+  		</div>
+
+      <div class="doc-card" data-genre="social" data-length="medium" data-platform="Netflix">
+
+			  <a href="documentaries/socialdillemma.html">
+        <h3><img src="images/the-social-dilemma_panel-discussion.jpg" alt="The Social Dilemma"></h3>
+   	 		</a>
+        <h3>The Social Dilemma<h3>
+  		</div>
+
+       <div class="doc-card" data-genre="social" data-length="medium" data-platform="Max">
+
+			  <a href="documentaries/brandy.html">
+        <h3><img src="images/unnamed.jpg" alt="Brandy Hellville & The Cult of Fast Fashion"></h3>
+   	 		</a>
+        <h3>Brandy Hellville & The Cult of Fast Fashion<h3>
+  		</div>
+
+      <div class="doc-card" data-genre="true-crime" data-length="medium" data-platform="Netflix">
+
+			  <a href="documentaries/eloa.html">
+        <h3><img src="images/eloa.jpg" alt="Eloá the Hostage: Live on TV"></h3>
+   	 		</a>
+        <h3>Eloá the Hostage: Live on TV<h3>
+  		</div>
+
+      <div class="doc-card" data-genre="true-crime" data-length="medium" data-platform="Netflix">
+
+			  <a href="documentaries/menendez.html">
+        <h3><img src="images/menendez.webp" alt="The Menendez Brothers"></h3>
+   	 		</a>
+        <h3>The Menendez Brothers<h3>
+  		</div>
+
+      <div class="doc-card" data-genre="science/nature" data-length="medium" data-platform="Prime">
+
+			  <a href="documentaries/kisstheground.html">
+        <h3><img src="images/kisstheground.jpg" alt="Kiss the Ground"></h3>
+   	 		</a>
+        <h3>Kiss the Ground<h3>
   		</div>
 </section>
   
