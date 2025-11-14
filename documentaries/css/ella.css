@@ -2,7 +2,12 @@
         padding-right: 15px;	
 	    padding-left: 15px;
         margin: 15px;
-        max-width: 400px;
+}
+
+.responsive {
+    max-width: 100%;
+    height: auto;
+    width: auto\9;
 }
 
 p {
@@ -13,8 +18,8 @@ p {
 }
 
 .doc-container {
-    color: black;
     max-width: 900px;
+    background-color: black
 }
 
 .doc-details {
@@ -29,42 +34,43 @@ p {
 }
 
 .doc-details h1 {
-    color: black;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font: sans-serif;
+    color: rgb(255, 255, 255);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font: georgia;
     text-align: center;
 }
 
 .doc-description {
     float: right;
-    overflow-wrap: break-word; 
-    word-wrap: break-word;    
-    white-space: normal;   
-    padding-right: 15px;	
-	padding-left: 15px;
+    padding: 15px;
     margin-top: 20px;
     max-width: 900px;
     width: 90%;
     color: white;
-    background-color: grey;
+    background-image: linear-gradient(to bottom, rgb(71, 128, 252), rgb(26, 24, 161));
     border-radius: 20px;
-    border-color: grey;
+    border-color: rgb(255, 255, 255);
     max-width: 900px;
     font-size: medium;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font: georgia;
 }
 
 .doc-description p {
     color: white;
     text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font: georgia;
 }
 
 .meta {
     float: right;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font: georgia;
     overflow-wrap: break-word;   
     word-wrap: break-word;      
     white-space: normal;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     padding-right: 15px;	
 	padding-left: 15px;
     margin-top: 20px;
@@ -75,3 +81,7 @@ p {
     font-style: italic;
 }
 
+.doc-header {
+    border-color: white;
+    border-radius: 10px;
+}
