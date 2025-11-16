@@ -63,15 +63,17 @@ body {
 
 .filter-section {
   width: 10%;
-  padding: 20px 10px;
+  padding: 10px;
   float:left;
+
   
 }
 
 .filter-section h2 {
-  margin-bottom: 20px;
-  font-size: 18px;
+  margin-bottom: -20px;
+  font-size: x-large;
   text-align: center;
+  width:150%;
 }
 
 .value {
@@ -110,7 +112,7 @@ width: 150%;
 }
 
 .genre-card.active {
-  background-color: rgb(123, 122, 122);;
+  background-color: rgb(189, 188, 188);
   color: white;
 }
 
@@ -143,7 +145,7 @@ width: 150%;
 }
 
 .platform-card.active {
-  background-color: rgb(123, 122, 122);
+  background-color: rgb(189, 188, 188);
   color: white;
 }
 
@@ -176,7 +178,7 @@ width: 150%;
 }
 
 .length-card.active {
-  background-color: rgb(123, 122, 122);
+  background-color: rgb(189, 188, 188);
   color: white;
 }
 
