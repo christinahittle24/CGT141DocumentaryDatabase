@@ -19,7 +19,7 @@ p {
 
 .doc-container {
     max-width: 900px;
-    background-color: black
+    background-color: #0f1017;
 }
 
 .doc-details {
@@ -38,6 +38,12 @@ p {
     font-family: Georgia, 'Times New Roman', Times, serif;
     font: georgia;
     text-align: center;
+    background-image: linear-gradient(to bottom,#2b2d42, #686d9c);
+    border-radius: 20px;
+    border-color: rgb(255, 255, 255);
+    padding: 15px;
+    align-items: center;
+
 }
 
 .doc-description {
@@ -47,7 +53,7 @@ p {
     max-width: 900px;
     width: 90%;
     color: white;
-    background-image: linear-gradient(to bottom, rgb(71, 128, 252), rgb(26, 24, 161));
+    background-image: linear-gradient(to top,#2b2d42, #686d9c);;
     border-radius: 20px;
     border-color: rgb(255, 255, 255);
     max-width: 900px;
@@ -84,4 +90,5 @@ p {
 .doc-header {
     border-color: white;
     border-radius: 10px;
+    border: white;
 }
