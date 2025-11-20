@@ -94,3 +94,22 @@ p {
     border-radius: 10px;
     border: white;
 }
+
+.container {
+  float: right;
+  max-width: 100%;
+  overflow: auto;
+  padding: 15px;
+  display: grid;
+  grid-template-columns: min-content auto;
+}
+
+#header-img {
+  max-height:80px;
+  margin: 10px;
+  padding: 15px;
+}
+
+.nav_class {
+  height: 80px;
+}
