@@ -19,12 +19,11 @@
 
 .navbar__container{
     display:flex;
-    height:100px;
+    height:100%;
     z-index:1;
     width:100%;
-    max-width:1300px;
     margin:0 auto;
-    padding: 1% 2%;
+    padding: 1% 0%;
 }
 
 #navbar__logo{
