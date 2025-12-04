@@ -19,13 +19,12 @@
 
 .navbar__container{
     display:flex;
-    justify-content:space-between;
     height:100px;
     z-index:1;
     width:100%;
     max-width:1300px;
     margin:0 auto;
-    padding:0 50px;
+    padding: 1% 2%;
 }
 
 #navbar__logo{
@@ -42,6 +41,12 @@
     text-decoration:none;
     font-size: 2.5rem;
     font-weight: bolder;
+    float:left;
+}
+
+#header-img{
+    float:left;
+
 }
 
 
@@ -84,8 +89,6 @@ body {
     border-top: none;
   border-radius: 6px 6px 0 0;
     margin-top:3%;
-
-    
 }
 
 
