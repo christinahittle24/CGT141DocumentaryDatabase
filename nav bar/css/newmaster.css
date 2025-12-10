@@ -22,9 +22,11 @@ body {
 }
 
 #header-img {
-  width: 95px;
-  height: 95px;
-  border-radius: 6px;
+    float:left;
+    width: auto;
+    height: 100%;
+    display:flex;
+    gap: 0rem;
 }
 .navbar{
     background:#2b2d42;
