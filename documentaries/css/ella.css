@@ -34,16 +34,14 @@ p {
 }
 
 .doc-details h1 {
-    color: rgb(255, 255, 255);
     font-family: Georgia, 'Times New Roman', Times, serif;
     font: georgia;
     text-align: center;
-    background-image: linear-gradient(to bottom,#2b2d42, #686d9c);
     border-radius: 20px;
-    border-color: rgb(255, 255, 255);
     padding: 15px;
     align-items: center;
     font-size: x-large;
+    color:  #ffffff;
 
 }
 
