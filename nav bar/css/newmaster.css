@@ -12,19 +12,19 @@ body {
 }
 .navbar {
   background-color: #2b2d42;
-  padding: 12px 30px;
+  padding: 1.2vh 3.0vh;
 }
 
 .navbar__container {
   display: flex;
   align-items: center;
-  gap: 15px;
+  gap: 1.5vh;
 }
 
 #header-img {
-  width: 95px;
-  height: 95px;
-  border-radius: 6px;
+  width: 9.5vh;
+  height: 9.5vh;
+  border-radius: .6vh;
 }
 .navbar{
     background:#2b2d42;
@@ -59,7 +59,7 @@ body {
     align-items: center;
     cursor:pointer;
     text-decoration:none;
-    font-size: 2.5rem;
+    font-size: 3vw;
     font-weight: bolder;
     float:left;
 }
@@ -69,7 +69,7 @@ main {
   display: flex;
   align-items: center;           
   justify-content: center;      
-  padding: 40px 20px;
+  padding: .40vh .20vh;
 }
 
 .doc-container {
