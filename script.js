@@ -32,7 +32,7 @@ genreButtons.forEach(button => {
   button.addEventListener('click', () => {
     selectedGenre = button.getAttribute('value');
     
-    // Update active button
+
     genreButtons.forEach(btn => btn.classList.remove('active'));
     button.classList.add('active');
 
@@ -45,7 +45,7 @@ platformButtons.forEach(button => {
   button.addEventListener('click', () => {
     selectedPlatform = button.getAttribute('value');
     
-    // Update active button
+
     platformButtons.forEach(btn => btn.classList.remove('active'));
     button.classList.add('active');
 
@@ -60,7 +60,7 @@ lengthButtons.forEach(button => {
   button.addEventListener('click', () => {
     selectedLength = button.getAttribute('value');
     
-    // Update active button
+
     lengthButtons.forEach(btn => btn.classList.remove('active'));
     button.classList.add('active');
 
