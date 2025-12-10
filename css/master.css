@@ -18,7 +18,6 @@
 }
 
 .navbar__container{
-    display:flex;
     height:100%;
     z-index:1;
     width:100%;
@@ -34,17 +33,19 @@
     -moz-background-clip:text;
     -webkit-text-fill-color:transparent;
     -moz-text-fill-color:transparent;
-    display:flex;
     align-items: center;
     cursor:pointer;
     text-decoration:none;
-    font-size: 2.5rem;
+    font-size: 200%;
     font-weight: bolder;
     float:left;
+    padding:1%;
 }
 
 #header-img{
     float:left;
+    width: auto;
+    height: 100%;
 
 }
 
@@ -274,9 +275,9 @@ h3 {
     padding-right: 10px;
     padding-bottom: 5px;
     justify-content: center;
-align-items: center;
-align-content: center;
-display: flex;
+  align-items: center;
+  align-content: center;
+  display: flex;
 
 }
 
@@ -292,3 +293,21 @@ h4 {
     padding-bottom: 5px;
 
 }
+
+.infobutton {
+      width:fit-content;
+      height: fit-content;
+      margin: 1%;
+      padding:0.85%;
+      background-color: #ffffff;
+      color: rgb(0, 0, 0);
+      text-decoration: none;
+      border-radius: 8px;
+      font-weight: 500;
+      transition: 0.2s;
+      display:flex;
+      float:right;
+
+}
+
+
