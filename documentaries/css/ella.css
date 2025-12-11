@@ -1,7 +1,11 @@
-.img {
+#doc-img {
+        aspect-ratio: 5/3;
+        width:auto;
+        height: auto;
         padding-right: 15px;	
 	    padding-left: 15px;
         margin: 15px;
+        border-color: red;
 }
 
 .responsive {
@@ -102,10 +106,7 @@ p {
   grid-template-columns: min-content auto;
 }
 
-#header-img {
-  align-self: left;
-  object-fit: contain;
-}
+
 
 .nav_class {
   height: 150px;
