@@ -11,42 +11,25 @@ body {
   line-height: 1.6;
 }
 .navbar {
-  background-color: #2b2d42;
-  padding: 12px 30px;
+   background: #2b2d42;
+  height: 10vh;
+  position: sticky;
+  top: 0;
+  z-index: 999;
 }
 
 .navbar__container {
+  width: 100%;
+  height: 100%;
+  padding: 0 3vw;
   display: flex;
   align-items: center;
-  gap: 15px;
+  gap: 2vw;
 }
 
 #header-img {
-    float:left;
-    width: auto;
-    height: 100%;
-    display:flex;
-    gap: 0rem;
-}
-.navbar{
-    background:#2b2d42;
-    height: 100px;
-    display:flex;
-    justify-content:center;
-    align-items: center;
-    font-size:1.2rem;
-    position:sticky;
-    top:0;
-    z-index:999;
-}
-
-.navbar__container{
-    display:flex;
-    height:100%;
-    z-index:1;
-    width:100%;
-    margin:0 auto;
-    padding: 1% 0%;
+    height: 6vh;
+  width: auto;
 }
 
 #navbar__logo{
@@ -61,74 +44,75 @@ body {
     align-items: center;
     cursor:pointer;
     text-decoration:none;
-    font-size: 2.5rem;
+    font-size: 3vw;
     font-weight: bolder;
     float:left;
 }
 
 main {
-  min-height: calc(100vh - 80px); 
+  min-height: 90vh;
   display: flex;
-  align-items: center;           
-  justify-content: center;      
-  padding: 40px 20px;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 4vh 2vw;
 }
 
 .doc-container {
-  max-width: 900px;
-  margin: 0 auto;
+  width: 90vw;
+  max-width: 90vw;
   background-color: white;
-  padding: 35px;
-  border-radius: 12px;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  padding: 4vh 4vw;
+  border-radius: 1.5vh;
+  box-shadow: 0 0.5vh 1.5vh rgba(0, 0, 0, 0.1);
 }
 
 .doc-header {
   display: flex;
   flex-wrap: wrap;
+  gap: 2vh;
 }
 
 .doc-details h1 {
-  font-size: 2rem;
-  margin-bottom: 10px;
+  font-size: 4vw;
+  margin-bottom: 1vh;
 }
 
 .meta {
-  font-size: 0.9rem;
+  font-size: 2.2vw;
   color: #666;
-  margin-bottom: 15px;
+  margin-bottom: 2vh;
 }
 
 .doc-description {
-  font-size: 1.05rem;
+  font-size: 2.6vw;
   color: #333;
 }
 
 .team-members {
-  margin-top: 30px;
+  margin-top: 4vh;
 }
 
 .team-members h2 {
-  font-size: 1.3rem;
-  margin-top: 20px;
+  font-size: 3vw;
+  margin-top: 3vh;
 }
 
 .team-members .description {
-  margin-top: 5px;
+  margin-top: 0.6vh;
   color: #444;
 }
 .team-members h2:not(:first-child) {
-  padding-top: 20px;
-  border-top: 1px solid #e3e3e3;
+  padding-top: 3vh;
+  border-top: 0.1vh solid #e3e3e3;
 }
 .back-btn {
   display: inline-block;
-  margin-top: 35px;
-  padding: 10px 20px;
+  margin-top: 4vh;
+  padding: 1.2vh 3vw;
   background-color: #2b2d42;
   color: white;
   text-decoration: none;
-  border-radius: 8px;
+  border-radius: 1vh;
   font-weight: 500;
   transition: background-color 0.2s ease;
 }
@@ -137,15 +121,32 @@ main {
   background-color: #3a3e60;
 }
 @media (max-width: 650px) {
+  .navbar {
+    height: 12vh;
+  }
+
+  #navbar__logo {
+    font-size: 5vw;
+  }
+
   .doc-container {
-    padding: 25px;
+    width: 95vw;
+    padding: 5vh 4vw;
   }
 
   .doc-details h1 {
-    font-size: 1.8rem;
+    font-size: 5.5vw;
+  }
+
+  .doc-description {
+    font-size: 3.5vw;
   }
 
   .team-members h2 {
-    font-size: 1.2rem;
+    font-size: 4vw;
+  }
+
+  .meta {
+    font-size: 3vw;
   }
 }
